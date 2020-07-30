@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="# ">MCQhub</a>
+    <button  class="navbar-toggler" type="button" data-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div style="background-color: palevioletred;" class="collapse navbar-collapse" id="navbarSupportedContent"> 
+        <ul class="navbar-nav mr-auto">
+            <!-- <li class="nav-item"> -->
+                <a class="nav-link" routerLink="/home" routerLinkActive="actve">Home</a>
+            <!-- </li> -->
+            <!-- <li class="nav-item"> -->
+                <a class="nav-link" routerLink="/aboutUs" routerLinkActive="actve">About Us</a>
+            <!-- </li> -->
+            <!-- <li class="nav-item"> -->
+                <a class="nav-link" routerLink="/login" routerLinkActive="actve">Login</a>
+            <!-- </li> -->
+            <!-- <li class="nav-item"> -->
+                <a class="nav-link" routerLink="/signup" routerLinkActive="actve">Sign up</a>
+            <!-- </li> -->
+                <a class="nav-link" routerLink="/test" routerLinkActive="actve">Take Test</a>
+                <a class="nav-link" routerLink="/class" routerLinkActive="actve">Select Class</a>
+        </ul>
+    </div> 
+</nav>
+<nav class="container">
+    <router-outlet></router-outlet>
+</nav>
